@@ -1,0 +1,5 @@
+a = input('Enter prompt:')
+b = a.find("  ")
+print('Dear User you have entered a double space at', b+1)
+c = a.replace("  "," ")
+print('Your Prompt Without double spaces will be :',c)
