@@ -1,0 +1,16 @@
+lst = []
+x = 1
+a = int(input('Enter Marks of Student 1:'))
+b = int(input('Enter Marks of Student 2:'))
+c = int(input('Enter Marks of Student 3:'))
+d = int(input('Enter Marks of Student 4:'))
+e = int(input('Enter Marks of Student 5:'))
+f = int(input('Enter Marks of Student 6:'))
+lst.append(a)
+lst.append(b)
+lst.append(c)
+lst.append(d)
+lst.append(e)
+lst.append(f)
+lst.sort()
+print(lst)

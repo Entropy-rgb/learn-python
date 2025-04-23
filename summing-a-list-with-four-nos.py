@@ -1,0 +1,11 @@
+a = int(input('Number:'))
+b = int(input('Number:'))
+c = int(input('Number:'))
+d = int(input('Number:'))
+lst = []
+lst.append(a)
+lst.append(b)
+lst.append(c)
+lst.append(d)
+x = sum(lst)
+print(x)
