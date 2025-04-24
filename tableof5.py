@@ -1,4 +1,4 @@
-for i in range(0,99):
+for i in range(1,99):
     print(5*i)
    
 
