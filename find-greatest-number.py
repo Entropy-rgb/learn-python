@@ -1,0 +1,11 @@
+a = int(input('Enter Number:'))
+b = int(input('Enter Number:'))
+c = int(input('Enter Number:'))
+d = int(input('Enter Number:'))
+l = []
+l.append(a)
+l.append(b)
+l.append(c)
+l.append(d)
+l.sort()
+print(l[-1])
